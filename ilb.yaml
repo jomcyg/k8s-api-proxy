@@ -6,7 +6,8 @@ metadata:
   name: k8s-api-proxy
   namespace: default
   annotations:
-    cloud.google.com/load-balancer-type: "Internal"
+    #cloud.google.com/load-balancer-type: "Internal"
+    cloud.google.com/load-balancer-type: "External"
 spec:
   ports:
   - port: 8118

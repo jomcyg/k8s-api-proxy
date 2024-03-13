@@ -17,3 +17,5 @@ sed -i "s/CLUSTER_IP/${INTERNAL_IP}/g"\
 
 # Start Privoxy un-daemonized
 privoxy --no-daemon /etc/privoxy/config
+
+echo "privoxy starting..."
